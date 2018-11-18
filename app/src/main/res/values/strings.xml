@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">DesarrollandoUnaAplicacion</string>
+    <string name="nombre_usuario">Nombre completo</string>
+    <string name="telefono">Telefono</string>
+    <string name="email">Correo electrónico</string>
+    <string name="descripcion">Descripción</string>
+    <string name="boton_siguiente">Siguiente</string>
+    <string name="fecha">Fecha de nacimiento</string>
+    <string name="ver_datos">Ver datos</string>
+    <string name="error_vacio">Campo obligatorio</string>
+    <string name="nombre_usuario_vista">Natalia Lafourcade Silva</string>
+    <string name="fecha_vista">Fecha de nacimiento: 26/02/1984</string>
+    <string name="telefono_vista">Tel. 1234567890</string>
+    <string name="email_vista">Email: lafourcade@gmail.com</string>
+    <string name="descripcion_vista">Es una cantante, compositora, productora musical, arreglista, diseñadora, filantrópica y activista</string>
+    <string name="texto_boton_editar">Editar Datos</string>
+    <string name="titulo">Confirmar Datos</string>
+    <string name="fecha_titulo">Fecha de nacimiento</string>
+    <string name="telefono_titulo">Tel.</string>
+    <string name="email_titulo">Email:</string>
+    <string name="descripcion_titulo">Descripción:</string>
+</resources>

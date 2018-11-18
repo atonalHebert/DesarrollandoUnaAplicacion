@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VistaDatos">
+
+    <!--Etiqueta de título-->
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:textSize="@dimen/tamano_texto"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
+
+    <!--Nombre completo-->
+    <TextView
+        android:id="@+id/tvNombreCompleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_usuario_vista"
+        android:textSize="@dimen/tamano_texto"/>
+
+    <!--Fecha de nacimiento-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvTituloFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fecha_titulo"
+            android:textSize="@dimen/tamano_texto"/>
+        <TextView
+            android:id="@+id/tvFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fecha_vista"
+            android:textSize="@dimen/tamano_texto"/>
+    </LinearLayout>
+
+    <!--Teléfono-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvTituloTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono_titulo"
+            android:textSize="@dimen/tamano_texto"/>
+        <TextView
+            android:id="@+id/tvTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono_vista"
+            android:textSize="@dimen/tamano_texto"/>
+
+    </LinearLayout>
+
+    <!--Correo electrónio-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvTituloEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email_titulo"
+            android:textSize="@dimen/tamano_texto"/>
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email_vista"
+            android:textSize="@dimen/tamano_texto"/>
+    </LinearLayout>
+
+    <!--Descripción-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvTituloDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion_titulo"
+            android:textSize="@dimen/tamano_texto"/>
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion_vista"
+            android:textSize="@dimen/tamano_texto"/>
+
+    </LinearLayout>
+
+    <!--Botón para editar datos-->
+    <Button
+        android:id="@+id/btnEditarDatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/texto_boton_editar"
+        android:theme="@style/estilo_raised_button"/>
+
+</LinearLayout>
